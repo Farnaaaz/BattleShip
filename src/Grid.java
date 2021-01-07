@@ -1,9 +1,5 @@
 
 //***************************************************************************************************************
-// Assignment 4 
-// Written by: Farnaz Zaveh, ID: 40032389
-// For COMP 248-R - Fall 2020  
-//
 //This program uses an array of object and includes four classes and one driver class to simulate the battleship game between a human user and the computer.
 //This class create a class Grid that construct cells with 5 properties, position with two coordinates, type of the piece (ship/Grenade/Nothing), 
 // the owner whose piece is placed (User/Computer/None) and alreadyCalled that shows if the position is already called during the game or not.
