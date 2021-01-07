@@ -1,8 +1,4 @@
 //***************************************************************************************************************
-// Assignment 4 
-// Written by: Farnaz Zaveh, ID: 40032389
-// For COMP 248-R - Fall 2020  
-//
 //This program uses an array of object and includes four classes and one driver class to simulate the battleship game between a human user and the computer.
 // This class contains the methods that place computer pieces, method that fire the rocket and check if it hits a piece, 
 // method that switch players turn, method that check if the game is over and the one that gets the winner.  
