@@ -10,3 +10,5 @@ Each player, in turn, “shoots a rocket” on the grid (i.e. calls a position).
 - If the rocket falls on a coordinate where the opponent (or the player) has a grenade, then the player loses a turn, and next time, the opponent will play twice in a row.
 - If the rocket falls on a coordinate where the opponent (or the player...) has a ship, then that ship sinks.
 - If the rocket falls on a coordinate that has been called before, regardless of what was there before, nothing happens. (So, for example, a grenade can only explode once).
+
+The goal of the game is to sink all of your opponent’s ships before your opponent sinks yours.
