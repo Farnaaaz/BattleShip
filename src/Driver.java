@@ -1,8 +1,4 @@
 //***********************************************************************************************************************************
-// Assignment 4 
-// Written by: Farnaz Zaveh, ID: 40032389
-// For COMP 248-R - Fall 2020  
-//
 // This program uses an array of object and includes four classes and one driver class to simulate the battleship game between a human user and the computer
 // The Driver class start the program by running a method that asks for users input to place their pieces, then calls other method to place computer's pieces
 // then it asks for user's input to fire on a rocket and computer't rocket will be chosen randomly. Every time a rocket is fired, the fired-on position will be check for the placed piece and its owner
@@ -42,11 +38,11 @@ public class Driver {
    // prompt the user, get ready,  set the pieces, fires rockets
    private void start() {
        keyboard = new Scanner(System.in); //declare the scanner object
-       System.out.println("Hi, let’s play Battleship!\n"); //greetings
+       System.out.println("Hi, letâ€™s play Battleship!\n"); //greetings
        
        this.initUserPieces();// place the user ships and grenade
        game.getReady();// initiate computer's ship and grenade AND Initiate the ship and grenade counters for the game 
-       System.out.println("OK, the computer placed its ships and grenades at random. Let’s play."); //prompt the user
+       System.out.println("OK, the computer placed its ships and grenades at random. Letâ€™s play."); //prompt the user
        System.out.println();
        
        while (!game.isDone()) {// until the game is done(number of ships of one player = 0, keep calling position
