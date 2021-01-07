@@ -1,5 +1,5 @@
 # BattleShip
-A program to play a version of the game of Battleship against the computer. This simplified version of the game will be played on a single 8 by 8 grid. 
+A program to play the game of Battleship against the computer. This simplified version of the game will be played on a single 8 by 8 grid. 
 Before the actual game, each player secretly places 6 ships and 4 grenades on the grid. 
 Ships and grenades are a single position on the grid. 
 The position of these ships and grenades are of course hidden from the opponent.
